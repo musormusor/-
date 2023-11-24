@@ -387,9 +387,9 @@ class Program
         Console.WriteLine($"{a * a} {b * b} {c * c} {d * d} {e * e}");*/
 
         Console.WriteLine("vvedite 20 chisel");
-        int[] nums = new int[20]
+        int[] nums = new int[20];
         int sum = 0;
-        for (int i = 0; i < 2; i++
+        for (int i = 0; i < 20; i++)
          {
              nums[i] = Convert.ToInt32(Console.ReadLine());
              sum = sum + num[i];
