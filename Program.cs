@@ -387,29 +387,14 @@ class Program
         Console.WriteLine($"{a * a} {b * b} {c * c} {d * d} {e * e}");*/
 
         Console.WriteLine("vvedite 20 chisel");
-        int a = Convert.ToInt32(Console.ReadLine());
-        int a1 = Convert.ToInt32(Console.ReadLine());
-        int a2 = Convert.ToInt32(Console.ReadLine());
-        int a3 = Convert.ToInt32(Console.ReadLine());
-        int a4 = Convert.ToInt32(Console.ReadLine());
-        int a5 = Convert.ToInt32(Console.ReadLine());
-        int a6 = Convert.ToInt32(Console.ReadLine());
-        int a7 = Convert.ToInt32(Console.ReadLine());
-        int a8 = Convert.ToInt32(Console.ReadLine());
-        int a9 = Convert.ToInt32(Console.ReadLine());
-        int a10 = Convert.ToInt32(Console.ReadLine());
-        int a11 = Convert.ToInt32(Console.ReadLine());
-        int a12 = Convert.ToInt32(Console.ReadLine());
-        int a13 = Convert.ToInt32(Console.ReadLine());
-        int a14 = Convert.ToInt32(Console.ReadLine());
-        int a15 = Convert.ToInt32(Console.ReadLine());
-        int a16 = Convert.ToInt32(Console.ReadLine());
-        int a17 = Convert.ToInt32(Console.ReadLine());
-        int a18 = Convert.ToInt32(Console.ReadLine());
-        int a19 = Convert.ToInt32(Console.ReadLine());
-        int[] nums = { a, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, a16, a17, a18, a19 };
-        int x = a + a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8+ a9 + a10 + a11 + a12 + a13 + a14 + a15 + a16 + a17 + a18 + a19;
-        int y = x / 20;
+        int[] nums = new int[20]
+        int sum = 0;
+        for (int i = 0; i < 2; i++
+         {
+             nums[i] = Convert.ToInt32(Console.ReadLine());
+             sum = sum + num[i];
+         }
+        int sum = x / 20;
         Console.WriteLine(y);
 
 
